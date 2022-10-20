@@ -1,0 +1,46 @@
+
+<html >
+<head>
+    <title>Webpage</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <header>
+       <div class="hero">
+           <div class="banner">
+               <div class="logo">Geek<span>Theory</span></div>
+               <div class="nav-links">
+                   <nav>
+                       <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Gallery</a></li>
+                           <li><a href="#">Contact Us</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+    </header>
+
+
+    <section class="path">
+        <div class="image">
+            <input type="file" onchange="document.getElementById('output').src=window.URL.createObjectURL(this.files[0])">
+            <button type="submit">Upload Image</button><br>
+            <img src="" id="output">
+        </div>
+    </section>
+   
+
+    <footer>
+        <hr >
+            <marquee class="dk">
+                <p class="pk"><b>Geektheory :</b> An organization with an all-rounding IT prowess , 
+                  is the haven created for geeks with fervor for technology.
+                </p>
+            </marquee>
+        <hr>
+    </footer>
+</body>
+</html> 
